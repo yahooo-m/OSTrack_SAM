@@ -80,4 +80,8 @@ python tracking_sam_demo.py \
   --checkpoint sam_vit_h_4b8939.pth \
   --sequence (any sequence in datasets)\
 ```
-   
+ ### Thanks other awesome SAM projects:
+- [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything)
+- [Zero-Shot Anomaly Detection](https://github.com/caoyunkang/GroundedSAM-zero-shot-anomaly-detection)
+- [EditAnything: ControlNet + StableDiffusion based on the SAM segmentation mask](https://github.com/sail-sg/EditAnything)
+- [IEA: Image Editing Anything](https://github.com/feizc/IEA)
