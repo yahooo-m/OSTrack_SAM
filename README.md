@@ -3,8 +3,8 @@ Combining OSTrack and Segment Anything for VOT and VOS
 
 # Some Result
 ![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/1.jpg)
-![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/9.jpg)
-![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/cat-20.avi)
+![image]([https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/9.jpg](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/cat.gif))
+
 
 # Quick start
 
