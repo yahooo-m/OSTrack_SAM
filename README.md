@@ -4,7 +4,7 @@ Still update!!
 
 # Some Result
 ![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/bicycle7.gif)
-![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/cat.gif)
+![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/cat20.gif)
 
 
 # Quick start
