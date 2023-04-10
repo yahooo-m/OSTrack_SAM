@@ -15,13 +15,12 @@ bash install.sh
 conda env create -f ostrack_cuda113_env.yaml
 ```
 
-## install sam
-Install Segment Anything:
+## Install Segment Anything:
 
 ```bash
 python -m pip install -e segment_anything
 ```
-## follow the OSTrack to set project paths
+## Follow the OSTrack to set project paths
 Run the following command to set paths for this project
 ```
 python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
