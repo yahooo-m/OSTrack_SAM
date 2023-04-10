@@ -3,7 +3,7 @@ A demo combining OSTrack and Segment Anything for VOT and VOS.
 Still update!!
 
 # Some Result
-![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/bicycle7.gif)
+![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/bicycle-7_small.gif)
 ![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/cat20.gif)
 
 
