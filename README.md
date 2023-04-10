@@ -1,5 +1,5 @@
 # OSTrack_SAM
-Combining OSTrack and SAM for VOS
+Combining OSTrack and SAM for VOT and VOS
 # Quick start
 
 ## Install the environment
