@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        
+
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "python": "/home/deshui/anaconda3/envs/ostrack/bin/python",
+            "console": "integratedTerminal",
+            /*
+            "args": [    // for train
+                "--script",               "ostrack",
+                "--config",               "vitb_256_mae_32x4_ep300",
+                "--save_dir",             "./out_got0309_256",
+            ]
+            
+            */
+            
+            "args": [    // for test
+                          "ostrack",
+                          "vitb_256_mae_ce_32x4_got10k_ep100",
+                "--dataset",              "got10k_val",
+                "--threads",              "1",
+                "--num_gpus",             "1",
+                "--sequence",             "GOT-10k_Val_000040",
+                "--checkpoint",         "/home/deshui/pro/OSTrack/sam_vit_h.pth",//"/home/deshui/pro/Segment-Anything/checkpoints/sam_vit_b.pth",
+            ]
+            
+        },
+    ]
+}
