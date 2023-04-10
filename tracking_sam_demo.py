@@ -76,6 +76,7 @@ class TrackerSAM:
             self.results_dir = '{}/{}/{}_{:03d}'.format(env.results_path, self.name, self.parameter_name, self.run_id)
         if result_only:
             self.results_dir = '{}/{}'.format(env.results_path, self.name)
+        self.result_path = env.results_path
 
         tracker_module_abspath = os.path.abspath(os.path.join(os.path.dirname(__file__),
                                                               'lib/test', 'tracker', '%s.py' % self.name))
@@ -186,8 +187,8 @@ class TrackerSAM:
             show_mask(masks.cpu().numpy(), plt.gca(), random_color=False)
             show_box(tgt_box_xyxy.numpy(), plt.gca())
             plt.axis('off')
-            os.makedirs(os.path.join('/home/deshui/pro/OSTrack/output/result', seq.name), exist_ok=True)
-            plt.savefig(os.path.join('/home/deshui/pro/OSTrack/output/result', seq.name, "{}.jpg".format(frame_num)), bbox_inches="tight")
+            os.makedirs(os.path.join(self.result_path, seq.name), exist_ok=True)
+            plt.savefig(os.path.join(self.result_path, seq.name, "{}.jpg".format(frame_num)), bbox_inches="tight")
             prev_output = OrderedDict(out)
             _store_outputs(out, {'time': time.time() - start_time})
 
