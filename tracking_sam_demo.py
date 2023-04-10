@@ -186,8 +186,8 @@ class TrackerSAM:
             show_mask(masks.cpu().numpy(), plt.gca(), random_color=False)
             show_box(tgt_box_xyxy.numpy(), plt.gca())
             plt.axis('off')
-            os.makedirs(os.path.join('/home/deshui/pro/OSTrack/output/result', frame_path.split('/')[-2]), exist_ok=True)
-            plt.savefig(os.path.join('/home/deshui/pro/OSTrack/output/result', frame_path.split('/')[-2], "{}.jpg".format(frame_num)), bbox_inches="tight")
+            os.makedirs(os.path.join('/home/deshui/pro/OSTrack/output/result', seq.name), exist_ok=True)
+            plt.savefig(os.path.join('/home/deshui/pro/OSTrack/output/result', seq.name, "{}.jpg".format(frame_num)), bbox_inches="tight")
             prev_output = OrderedDict(out)
             _store_outputs(out, {'time': time.time() - start_time})
 
