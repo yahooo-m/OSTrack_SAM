@@ -1,5 +1,6 @@
 # OSTrack_SAM
-Combining OSTrack and Segment Anything for VOT and VOS
+A demo combining OSTrack and Segment Anything for VOT and VOS.
+Still update!!
 
 # Some Result
 ![image](https://github.com/miaodeshui/OSTrack_SAM/blob/main/assets/bicycle-7.gif)
@@ -86,7 +87,7 @@ python tracking_sam_demo.py \
   --checkpoint sam_vit_h_4b8939.pth \
   --sequence (any sequence in datasets)\
 ```
- ### Thanks other awesome SAM projects:
+ ### Thanks [OSTrack](https://github.com/botaoye/OSTrack) and other awesome SAM projects:
 - [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 - [Zero-Shot Anomaly Detection](https://github.com/caoyunkang/GroundedSAM-zero-shot-anomaly-detection)
 - [EditAnything: ControlNet + StableDiffusion based on the SAM segmentation mask](https://github.com/sail-sg/EditAnything)
