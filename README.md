@@ -57,9 +57,9 @@ Put the tracking datasets in ./data. It should look like:
    And you can set your own datasets
    
 ## model preperation
-Download the OSTrack model weights from [Google Drive](https://drive.google.com/drive/folders/1PS4inLS8bWNCecpYZ0W2fE5-A04DvTcd?usp=sharing) 
+- Download the OSTrack model weights from [Google Drive](https://drive.google.com/drive/folders/1PS4inLS8bWNCecpYZ0W2fE5-A04DvTcd?usp=sharing) 
 
-Put the downloaded weights on `$PROJECT_ROOT$/output/checkpoints/train/ostrack`
+   Put the downloaded weights on `$PROJECT_ROOT$/output/checkpoints/train/ostrack`
 
 - Download the checkpoint for segment-anything and grounding-dino:
 ```bash
